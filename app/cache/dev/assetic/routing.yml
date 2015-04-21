@@ -2,4 +2,4 @@ _assetic:
     resource: .
     type: assetic
 _app:
-    resource: /Users/martinlavanant/Sites/TechWeb/app/config/routing_dev.yml
+    resource: /Users/Quentin/Sites/PHP_Avance_II_Techweb/app/config/routing_dev.yml

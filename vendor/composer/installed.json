@@ -695,53 +695,6 @@
         ]
     },
     {
-        "name": "sensiolabs/security-checker",
-        "version": "v2.0.1",
-        "version_normalized": "2.0.1.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/sensiolabs/security-checker.git",
-            "reference": "134cecf1c61256bd8e973e11376891a724543820"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/sensiolabs/security-checker/zipball/134cecf1c61256bd8e973e11376891a724543820",
-            "reference": "134cecf1c61256bd8e973e11376891a724543820",
-            "shasum": ""
-        },
-        "require": {
-            "ext-curl": "*",
-            "symfony/console": "~2.0"
-        },
-        "time": "2015-01-26 16:25:19",
-        "bin": [
-            "security-checker"
-        ],
-        "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "2.0-dev"
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-0": {
-                "SensioLabs\\Security": ""
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Fabien Potencier",
-                "email": "fabien.potencier@gmail.com"
-            }
-        ],
-        "description": "A security checker for your composer.lock"
-    },
-    {
         "name": "kriswallsmith/assetic",
         "version": "v1.2.1",
         "version_normalized": "1.2.1.0",
@@ -1768,5 +1721,52 @@
             "annotations",
             "controllers"
         ]
+    },
+    {
+        "name": "sensiolabs/security-checker",
+        "version": "v2.0.2",
+        "version_normalized": "2.0.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/sensiolabs/security-checker.git",
+            "reference": "cecb1397087dc9c733796eda6e9d121336039cdc"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/sensiolabs/security-checker/zipball/cecb1397087dc9c733796eda6e9d121336039cdc",
+            "reference": "cecb1397087dc9c733796eda6e9d121336039cdc",
+            "shasum": ""
+        },
+        "require": {
+            "ext-curl": "*",
+            "symfony/console": "~2.0"
+        },
+        "time": "2015-04-21 07:52:05",
+        "bin": [
+            "security-checker"
+        ],
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.0-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "SensioLabs\\Security": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien.potencier@gmail.com"
+            }
+        ],
+        "description": "A security checker for your composer.lock"
     }
 ]
